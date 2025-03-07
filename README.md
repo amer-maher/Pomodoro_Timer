@@ -30,3 +30,5 @@ To get started with the Pomodoro Timer, follow these steps:
    ```bash
    git clone https://github.com/amer-maher/Pomodoro_Timer.git
    cd pomodoro-timer
+   npm install
+   npm run start
