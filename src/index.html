@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pomodoro Timer</h1>
+        <h2 id="timer">00:00</h2> 
+        <h3 id="currentTask"></h3> <!-- Display current task -->
+
+        <div class="control">
+            <button id="start">Start</button>
+            <button id="pause">Pause</button>
+            <button id="setting">Settings</button>
+            <br>
+            <label for="workTime">Work Time:</label>
+            <input type="number" id="workTime" min="1" value="25">
+            <br>
+            <label for="breakTime">Break Time:</label>
+            <input type="number" id="breakTime" min="1" value="5">
+        </div>
+
+        <div id="tasks" class="task">
+            <label for="taskInput">Add Task:</label>
+            <input type="text" id="taskInput" placeholder="Enter task">
+            <button id="addTask">+</button>
+            <button id="removeTask">-</button>
+            <br>
+            <label for="taskSelect">Select Task for Session:</label>
+            <select id="taskSelect"></select>
+            <br>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="taskTableBody"></tbody>
+            </table>
+        </div>
+        
+    </div>
+    
+    <script type="module" src="index.bundle.js"></script>
+</body>
+</html>
