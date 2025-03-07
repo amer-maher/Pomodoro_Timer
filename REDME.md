@@ -28,5 +28,5 @@ To get started with the Pomodoro Timer, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/amer-maher/pomodoro-timer.git
+   git clone https://github.com/amer-maher/Pomodoro_Timer.git
    cd pomodoro-timer
